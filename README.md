@@ -1,4 +1,4 @@
-# CMS DAS 2023 Pre-exercises
+# CMS DAS 2023 (CERN) Pre-exercises
 
 This repository generates the corresponding lesson website from [The Carpentries](https://carpentries.org/) repertoire of lessons.
 
