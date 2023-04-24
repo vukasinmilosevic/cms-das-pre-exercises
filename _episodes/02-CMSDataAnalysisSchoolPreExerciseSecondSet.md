@@ -120,7 +120,7 @@ To quit ROOT application, execute:
 {: .source}
 
 > ## Remember 
->For CMSDAS@LPC{{site.year}}  please submit your answers at the [Google Form second set][Set2_form].
+>For CMSDAS@CERN{{site.year}}  please submit your answers at the [Google Form second set][Set2_form].
 {: .objectives}
 
 > ## Question 7.1a
@@ -144,13 +144,10 @@ To quit ROOT application, execute:
 > What is the size of the slimmed output file compared to the original sample?
 {: .challenge}
 
-Compare one of your slimmed output files to the original MiniAOD file it came from. To find sizes in EOS, you can use  [`eos ls -alh /store/user/filepath/filename.root`](https://uscms.org/uscms_at_work/computing/LPC/usingEOSAtLPC.shtml#listFilesOnEOS) with the appropriate username, path and filename.
-:warning: To be checked. :warning: Not clear how to check on lxplus the size of the original files (e.g., root://cmseos.fnal.gov//store/user/cmsdas/2022/pre_exercises/Set2/DYJetsToLL.root). `eos ls -alh /store/user/cmsdas/2022/pre_exercises/Set2/DYJetsToLL.root` does not work.   `edmFileUtil -l root://cmseos.fnal.gov//store/user/cmsdas/2022/pre_exercises/Set2/DYJetsToLL.root` does work but it more annoying as displayes the size in bytes.
+Compare one of your slimmed output files to the original MiniAOD file it came from. To find sizes of the files in EOS, you can use e.g., [`edmFileUtil -l root://cms-xrd-global.cern.ch///store/user/filepath/filename.root`](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookEdmUtilities#edm_FileUtil) with the appropriate path and filename.
 
 > ## Question 7.3b
 > Is the mean eta for muons for MC and data the same as in the original sample in Exercise 6?
-{: .challenge}
-:warning: To be checked. :warning: The files skimmed here are different than in Exercise 6 aren't they? Does this question make sence?
 
 # Exercise 8 -  Use FWLite on the MiniAOD created in Exercise 7 and make a Z Peak (applying `pt` and `eta` cuts)
 
@@ -335,4 +332,4 @@ Then answer the following question.
 {% include links.md %}
 
 
-[Set2_form]: https://forms.gle/us8xaot3tGQeZwt47
+[Set2_form]: https://forms.gle/ZoapthaYVCeB362s5
