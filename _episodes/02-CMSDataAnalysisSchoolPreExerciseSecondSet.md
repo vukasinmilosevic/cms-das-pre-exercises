@@ -147,7 +147,7 @@ To quit ROOT application, execute:
 Compare one of your slimmed output files to the original MiniAOD file it came from. To find sizes of the files in EOS, you can use e.g., [`edmFileUtil -l root://cms-xrd-global.cern.ch///store/user/filepath/filename.root`](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookEdmUtilities#edm_FileUtil) with the appropriate path and filename.
 
 > ## Question 7.3b
-> Is the mean eta for muons for MC and data the same as in the original sample in Exercise 6?
+> Is the mean eta of muons for MC and data the same as in the MC and data samples in Exercise 6?
 
 # Exercise 8 -  Use FWLite on the MiniAOD created in Exercise 7 and make a Z Peak (applying `pt` and `eta` cuts)
 
